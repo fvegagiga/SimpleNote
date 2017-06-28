@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#FF5722</color>-->
+    <color name="colorPrimary">#b71c1c</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="colorAccent">#AACC33</color>
+
+    <color name="emptyBackground">#AACC33</color>
+    <color name="baseNote">#fff59d</color>
+    <color name="listDivider">#5D4037</color>
+    <color name="appBackground">#fff8e5</color>
+
+    <color name="enabled_color">#685f5c</color>
+    <color name="disabled_color">#000000</color>
+    <color name="hint_color">#ffc69a</color>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_no_data_label">5dp</dimen>
+    <dimen name="detail_fragment_padding">16dp</dimen>
+    <dimen name="detail_fragment_item_margin_bottom">16dp</dimen>
+    <dimen name="image_size">200dp</dimen>
+    <dimen name="image_margin_top">64dp</dimen>
+    <dimen name="detail_fragment_item_margin_top">16dp</dimen>
+
+</resources>

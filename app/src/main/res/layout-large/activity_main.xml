@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/listDivider">
+
+    <FrameLayout
+        android:id="@+id/listPlace"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+        <TextView
+            android:id="@id/android:empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_data_to_display"
+            android:visibility="gone"
+            android:padding="@dimen/padding_no_data_label"
+            android:background="@color/emptyBackground"/>
+    </FrameLayout>
+
+    <Space
+        android:layout_width="2dp"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/detailPlace"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3" />
+</LinearLayout>

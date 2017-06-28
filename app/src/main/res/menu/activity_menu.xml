@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:id="@+id/group_main">
+        <item android:id="@+id/menu_add"
+              android:icon="@android:drawable/ic_menu_add"
+              android:orderInCategory="100"
+              android:showAsAction="ifRoom"
+              android:title="@string/add_new" />
+
+        <item android:id="@+id/menu_search"
+              android:actionViewClass="android.widget.SearchView"
+              android:icon="@android:drawable/ic_menu_search"
+              android:showAsAction="ifRoom|collapseActionView"
+              android:title="@string/search_menu" />
+    </group>
+
+
+    <group android:id="@+id/group_fragment">
+        <item android:id="@+id/menu_edit"
+              android:icon="@android:drawable/ic_menu_edit"
+              android:orderInCategory="110"
+              android:showAsAction="ifRoom"
+              android:title="@string/edit_menu"
+            />
+
+        <item android:id="@+id/menu_save"
+              android:icon="@android:drawable/ic_menu_save"
+              android:orderInCategory="120"
+              android:showAsAction="ifRoom"
+              android:title="@string/menu_save"
+            />
+    </group>
+</menu>
